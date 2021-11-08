@@ -1,0 +1,120 @@
+@import url(base.css);
+
+section {
+    margin: 100px auto;
+    background-color: var(--dark); 
+    position: relative;
+}
+.container-home {
+    padding: 50px auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container__content {
+    margin: 10px;
+    color: var(--text-title);    
+}
+.container__content h1{
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0 0 32px;
+}
+.h2{
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 0 32px;
+}
+.p {
+    margin: 0 0 48px;
+    padding-top: 24px;
+    font-size: 1.1rem;
+    color: var(--text-content)
+}
+.image {
+    margin: 10px;
+    animation: image 6s ease-in-out infinite;
+}
+@keyframes image {
+    0% {transform: translateY(-6px);}
+    25% {transform: translateY(6px);}
+    50% {transform: translateY(-6px);}
+    75% {transform: translateY(6px);}
+    100%{transform: translateY(-6px);}
+}
+#home {
+    margin: 50px 0;
+}
+/* #home  > div:first-child {
+    width: 50%;
+    margin: auto;
+    border: double 1px var(--tag);
+    position: absolute;
+    top: 95px;
+    right: 25%;
+}  */
+.container-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-grid div {
+    width: 22%;
+    padding: 40px 20px;
+    background-color: var(--tag);
+    color: var(--text-title);
+    text-align: center;
+    border-radius: 6px;
+
+}
+.container-grid div > b{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--green);
+    margin-bottom: 16px;
+}
+.container-grid div > p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.btn-covid {
+    font-weight: 600;
+    padding: 6px 20px;
+    border: solid 1px transparent;
+    color: var(--green);
+    background-color: var(--tag);
+    border-radius: 50px;
+}
+.symptoms {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.symptoms ul {
+    padding-left: 0;
+}
+.symptoms div ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--text-content)
+}
+.symptoms div ul li i {
+    color: var(--green);
+    padding-right: 9px;
+    padding-bottom: 30px;
+}
+.center {
+    text-align: center;
+}
+.conter h2 {
+    margin: 10px 0;
+}
+
+.image-selection {
+
+
+}
